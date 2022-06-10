@@ -1,4 +1,4 @@
-const splitBoletoString = (barCode, type) => {
+const splitBoletoString = (barCode) => {
   const barCodes = [
     barCode.slice(0, 9),
     barCode.slice(10, 20),
